@@ -11,14 +11,14 @@ const comfortaa = Comfortaa({
 });
 
 export const metadata: Metadata = {
-  title: "Manuel | Desarrollador Full Stack",
-  description: "Portfolio de proyectos y contacto.",
+  title: "Manuel | Full Stack Developer",
+  description: "Portfolio of projects and contact information.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="es"
+      lang="en"
       className={`${comfortaa.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

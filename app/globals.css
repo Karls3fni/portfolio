@@ -22,3 +22,12 @@ body {
   color: var(--foreground);
   font-family: var(--font-comfortaa), sans-serif;
 }
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 1; }
+}
+
+.animate-twinkle {
+  animation: twinkle 2.8s ease-in-out infinite;
+}

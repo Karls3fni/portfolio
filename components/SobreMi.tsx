@@ -1,17 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Starfield from "@/components/Starfield";
 
 export default function SobreMi() {
   return (
     <motion.section
       id="sobre-mi"
-      className="flex min-h-screen flex-col items-center justify-center p-6 text-center"
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 text-center"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
+      <Starfield />
       <h2 className="text-4xl font-bold text-amber-400">About me</h2>
      <div className="mt-4 max-w-xl space-y-4 text-left text-lg text-gray-300">
   <p>
