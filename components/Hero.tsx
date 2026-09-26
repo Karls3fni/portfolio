@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <motion.section
     id="inicio"
-    className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 pt-24 text-center"
+    className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 pt-24 text-center scroll-mt-24"
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.6 }}

@@ -19,7 +19,7 @@ function LinkedinIcon({ size = 28 }: { size?: number }) {
 
 export default function Contacto() {
   return (
-    <section id="contacto" className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 text-center">
+    <section id="contacto" className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 text-center scroll-mt-24">
       <Starfield />
       <div className="relative z-10">
         <h2 className="text-4xl font-bold text-amber-400">Contact</h2>

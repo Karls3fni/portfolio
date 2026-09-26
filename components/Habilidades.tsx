@@ -28,7 +28,7 @@ export default function Habilidades() {
   return (
     <motion.section
       id="habilidades"
-      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 text-center"
+      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 text-center scroll-mt-24"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
